@@ -1,0 +1,118 @@
+
+body {
+    background: #14110f;
+    margin: 0;
+    padding: 10px;
+}
+
+#intro-milo, #intro-album, #intro-fallon, #intro-premios {
+    text-align: left;
+    text-decoration: underline;
+    color: #d96b27;
+    margin: 0 0 10px 0;
+}
+
+#logo-milo, #logo-album, #logo-fallon, #logo-premios {
+    width: 65px;
+    height: 65px;
+    float: right;
+    margin-top: -10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1 {
+    text-align: center;
+    color: #d96b27;
+    margin: 15px 0;
+}
+
+h2 {
+    color: #e69a38;
+    margin: 15px 0 10px 0;
+}
+
+.intro {
+    text-align: center;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 1000px;
+    background: #2b231f;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    font-family: 'Times New Roman', Times, serif;
+    color: #f3ebd9;
+}
+
+nav {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.nav-seccion {
+    display: inline-block;
+    margin: 5px 15px;
+}
+
+#nav-album, #nav-fallon, #nav-premios, #nav-inicio {
+    margin-left: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f3ebd9;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+nav a:hover {
+    color: #d96b27;
+}
+
+.nav-icono {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+main {
+    margin-top: 15px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.contenedor-foto-album, .contenedor-foto-fallon, .contenedor-foto-premios {
+    height: auto;
+    overflow: hidden;
+}
+
+#foto-album, #foto-fallon, #foto-premios {
+    float: right;
+    margin: 5px 0 15px 20px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+#foto-album { height: 350px; }
+#foto-fallon { height: 320px; }
+#foto-premios { height: 280px; width: 420px; }
+
+.enlace-noticia {
+    color: #e69a38;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.enlace-noticia:hover {
+    color: #ffffff;
+}
